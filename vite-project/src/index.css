@@ -1,0 +1,24 @@
+*{
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+}
+.flex-container{
+display: flex;
+width: 80%;
+margin: auto;
+gap: 1rem;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.card{
+  width: calc((100% - 6rem) / 3);
+  background-color: black;
+  padding-left: 1rem;
+}
+.card img{
+  width: 70%;
+}
