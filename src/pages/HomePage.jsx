@@ -1,4 +1,6 @@
-function homePage (){
-<h1>questa l'home page</h1>
+
+
+function HomePage (){
+return( <h1>questa l'home page</h1>)
 }
-export default homePage
+export default HomePage

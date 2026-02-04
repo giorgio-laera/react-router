@@ -1,5 +1,5 @@
 
-function navbar (){
+function navBar (){
 <h1>questa e una navbar</h1>
 }
-export default navbar
+export default navBar
