@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage'
 import About from './pages/AboutPage'
 import Products from './pages/ProductsPage'
 import SingleItem from './pages/SingleItemPage'
+import Error from './pages/ErrorPage'
 function App() {
 
 	return (
@@ -16,6 +17,7 @@ function App() {
 					<Route path='/About' Component={About} />
 					<Route path='/Products' Component={Products} />
 					<Route path='/Products/:id' Component={SingleItem} />
+					<Route path='/Error' Component={Error} />
 				</Route>
 			</Routes>
 

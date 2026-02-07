@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
-import { Link, useNavigate, useParams } from "react-router-dom"
+import { Link, useNavigate, useParams,Route } from "react-router-dom"
 import axios from "axios"
+import ErrorPage from "./ErrorPage"
 
 
 function singleProduct() {
@@ -22,11 +23,7 @@ function singleProduct() {
     useEffect(getDati, [id])
 
     if (item ==''){
-       return <>
-       <h1>Questo articolo non e disponibile</h1>
-       <Link to="/Products">Torna ai prodotti</Link>
-       <Link to="/">Torna alla Home</Link>
-       </>
+       navigate("/Error");
     }else{return <>
         <div className='flex-container flex-wrap'>
             
