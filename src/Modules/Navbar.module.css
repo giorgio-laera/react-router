@@ -15,6 +15,6 @@
     text-decoration: none;
     margin: 0 1rem ;
 }
-.navbar a:hover{
+.navbar :global(.active){
 text-decoration: underline;
 }
