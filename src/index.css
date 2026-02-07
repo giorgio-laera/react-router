@@ -1,7 +1,13 @@
 *{
-  color: white;
-}
+  color: #39FF14;
 
+}
+a{
+  margin: 0 0.5rem;
+}
+body{
+  background-color: #444;
+}
 ul{
   list-style-type: none;
 }
